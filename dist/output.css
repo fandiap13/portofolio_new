@@ -644,6 +644,10 @@ video {
   margin-left: 1.25rem;
 }
 
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -662,14 +666,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
 }
 
 .box-border {
@@ -718,10 +714,6 @@ video {
 
 .max-h-\[500px\] {
   max-height: 500px;
-}
-
-.max-h-\[200px\] {
-  max-height: 200px;
 }
 
 .min-h-\[400px\] {
@@ -901,22 +893,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'public\/img\/kas-hmpti\/gambar1\.PNG\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('public/img/kas-hmpti/gambar1.PNG');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'public\/img\/pakan-ikan-otomatis\/gambar4\.png\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('public/img/pakan-ikan-otomatis/gambar4.png');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'public\/img\/wisatagerdu\/gambar1\.PNG\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('public/img/wisatagerdu/gambar1.PNG');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/wisatagerdu\/gambar1\.PNG\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/wisatagerdu/gambar1.PNG');
-}
-
 .bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/kas-hmpti\/gambar1\.PNG\'\)\] {
   background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/kas-hmpti/gambar1.PNG');
 }
@@ -925,12 +901,32 @@ video {
   background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/pakan-ikan-otomatis/gambar4.png');
 }
 
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/whk-portable\/detailkesehatan\.png\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/whk-portable/detailkesehatan.png');
-}
-
 .bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/whk-portable\/detail-kesehatan\.png\'\)\] {
   background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/whk-portable/detail-kesehatan.png');
+}
+
+.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/wisatagerdu\/gambar1\.PNG\'\)\] {
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/wisatagerdu/gambar1.PNG');
+}
+
+.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\.\.\/public\/img\/whk-portable\/detail-kesehatan\.png\'\)\] {
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('../public/img/whk-portable/detail-kesehatan.png');
+}
+
+.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'https\:\/\/fandiap13\.github\.io\/portofolio_new\/public\/img\/kas-hmpti\/gambar1\.PNG\'\)\] {
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('https://fandiap13.github.io/portofolio_new/public/img/kas-hmpti/gambar1.PNG');
+}
+
+.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'https\:\/\/fandiap13\.github\.io\/portofolio_new\/public\/img\/pakan-ikan-otomatis\/gambar4\.png\'\)\] {
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('https://fandiap13.github.io/portofolio_new/public/img/pakan-ikan-otomatis/gambar4.png');
+}
+
+.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'https\:\/\/fandiap13\.github\.io\/portofolio_new\/public\/img\/whk-portable\/detail-kesehatan\.png\'\)\] {
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('https://fandiap13.github.io/portofolio_new/public/img/whk-portable/detail-kesehatan.png');
+}
+
+.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'https\:\/\/fandiap13\.github\.io\/portofolio_new\/public\/img\/wisatagerdu\/gambar1\.PNG\'\)\] {
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('https://fandiap13.github.io/portofolio_new/public/img/wisatagerdu/gambar1.PNG');
 }
 
 .bg-cover {
@@ -945,11 +941,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .p-4 {
