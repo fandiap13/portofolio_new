@@ -1207,11 +1207,6 @@ header.nav-scroll {
     max-width: 80%;
   }
 
-  .sm\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
