@@ -893,26 +893,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/kas-hmpti\/gambar1\.PNG\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/kas-hmpti/gambar1.PNG');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/pakan-ikan-otomatis\/gambar4\.png\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/pakan-ikan-otomatis/gambar4.png');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/whk-portable\/detail-kesehatan\.png\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/whk-portable/detail-kesehatan.png');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\/public\/img\/wisatagerdu\/gambar1\.PNG\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('/public/img/wisatagerdu/gambar1.PNG');
-}
-
-.bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'\.\.\/public\/img\/whk-portable\/detail-kesehatan\.png\'\)\] {
-  background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('../public/img/whk-portable/detail-kesehatan.png');
-}
-
 .bg-\[linear-gradient\(to_bottom\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(255\2c 255\2c 255\2c 0\)\2c rgba\(143\2c 146\2c 158\2c 1\)\)\2c url\(\'https\:\/\/fandiap13\.github\.io\/portofolio_new\/public\/img\/kas-hmpti\/gambar1\.PNG\'\)\] {
   background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0),rgba(143,146,158,1)),url('https://fandiap13.github.io/portofolio_new/public/img/kas-hmpti/gambar1.PNG');
 }
@@ -1222,6 +1202,22 @@ header.nav-scroll {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+@media (min-width: 640px) {
+  .sm\:max-w-\[80\%\] {
+    max-width: 80%;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:static {
     position: static;
@@ -1267,6 +1263,11 @@ header.nav-scroll {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .md\:text-dark {
