@@ -83,10 +83,10 @@
           >Source Code Aplikasi Mobile</a
         >
         <a
-          href="https://github.com/fandiap13/my_health_app.git"
+          href="https://drive.google.com/drive/folders/11-lVlcKWbfRn01LxdqEn9x_P1i5rrLNz?usp=drive_link"
           target="_blank"
           class="inline-block bg-dark text-xl text-white px-8 py-4 rounded-xl mt-6"
-          >Video Demo</a
+          >Demo Program</a
         >
       </div>
 
@@ -151,11 +151,6 @@
           alt="Gambar"
           class="w-full min-h-[400px] max-h-[500px] rounded-lg object-contain bg-slate-200 lg:w-[48%]"
         />
-        <img
-          src="public/img/aplikasi-monitoring/edit-profile.jpeg"
-          alt="Gambar"
-          class="w-full min-h-[400px] max-h-[500px] rounded-lg object-contain bg-slate-200 lg:w-[48%]"
-        />
       </div>
 
       <div class="container max-w-[80%] m-auto">
@@ -163,26 +158,20 @@
           <div class="w-full md:flex-1">
             <h3 class="text-4xl font-medium mb-6">Deskripsi</h3>
             <p class="text-lg font-normal leading-loose tracking-wide mb-2">
-              Saya bertangung jawab dalam perancangan dan pembuatan website "<a
-                href="https://aikan-main.desagerdu.my.id"
-                target="_blank"
-                class="text-blue-500"
-                >Alat Kendali Pakan Ikan Otomatis</a
-              >". Kami menggunakan teknologi dari Framework CodeIgniter 4 dan
-              database MySQL dalam mengerjalan proyek ini. Hasil dari proyek ini
-              yakni website dapat memberikan perintah pemberian pakan ikan dari
-              jarak jauh, melakukan penjadwalan dalam pemberian pakan ikan,
-              memonitoring jumlah pakan ikan yang tersedia secara real-time, dan
-              dapat memonitoring suhu air dari akuarium tersebut sercara
-              real-time.
+              Proyek ini melibatkan pengembangan aplikasi mobile untuk
+              monitoring kesehatan menggunakan bahasa pemrograman Dart dan
+              framework Flutter, serta integrasi dua sensor kesehatan: MAX30102
+              untuk mengukur kadar oksigen darah dan detak jantung, dan MLX90614
+              untuk mengukur suhu tubuh. Sensor-sensor ini terhubung melalui
+              mikrokontroler ESP32 yang menggunakan protokol komunikasi
+              Bluetooth Low Energy (BLE) untuk mengirimkan data ke aplikasi
+              mobile. Untuk database, proyek ini menggunakan Firebase Firestore.
             </p>
             <p class="text-lg font-normal leading-loose tracking-wide mb-2">
-              Melalui proyek ini, saya mendapatkan pengalaman dalam merancang
-              website menggunakan CodeIgniter 4 serta pengalaman saat turut
-              membantu dalam pembuatan alat IOT menggunakan Mappi32 sebagai
-              mikrokontrolernya. Saya senang dapat mencantumkan ini pada
-              portofolio dengan maksud untuk memperlihatkan kemampuan serta
-              tanggung jawab saya dalam pembuatan proyek ini.
+              Sistem ini dirancang untuk memberikan cara yang efisien dan
+              praktis bagi pengguna dalam memantau kesehatan mereka secara
+              real-time, di mana saja, serta menyimpan data ke server untuk
+              referensi di masa depan.
             </p>
           </div>
           <div class="w-full md:flex-1">
@@ -195,37 +184,27 @@
               class="list-decimal text-lg font-normal leading-loose tracking-wide ml-5"
             >
               <li>
-                <b>Login User: </b>Sebagai proses masuk bagi user agar dapat
-                mengakses fitur - fitur dari website ini.
+                <b>Real-time Health Monitoring: </b> Aplikasi menampilkan data
+                kesehatan secara langsung dari sensor melalui koneksi Bluetooth
+                Low Energy (BLE), seperti kadar oksigen dalam darah, detak
+                jantung, dan suhu tubuh.
               </li>
               <li>
-                <b>Monitoring Jumlah Pakan: </b>Alat ini menggunakan sensor
-                ultrasonik HC-SR04 untuk menghitung jarak kedalaman dari wadah
-                pakan ikan, kemudian data tersebut dikirim ke API kemudian
-                ditampilkan pada website. Jika pakan habis maka secara otomatis
-                alaram pakan habis akan berbunyi.
+                <b>Data Storage: </b> Data kesehatan yang diambil dari sensor
+                disimpan di server, sehingga pengguna dapat mengakses riwayat
+                pemeriksaan mereka kapan saja.
               </li>
               <li>
-                <b>Monitoring Suhu Akuarium: </b>Website ini menampilkan suhu
-                akuarium secara real-time, dengan mengambil data sensor suhu
-                pada perangkat IOT.
+                <b>User-friendly Interface: </b> Aplikasi dirancang dengan
+                antarmuka yang mudah digunakan, memudahkan pengguna untuk
+                melakukan pengecekan kesehatan secara mandiri kapan saja dan di
+                mana saja.
               </li>
               <li>
-                <b>Kontrol Pakan: </b>Website ini dapat memberikan perintah
-                pemberian pakan dengan mengklik tombol beri pakan.
-              </li>
-              <li>
-                <b>Penjadwalan Pakan: </b>Dapat mengatur jadwal pemberian pakan
-                secara otomatis berdasarkan jam dari jadwal yang sudah diatur.
-              </li>
-              <li>
-                <b>Monitroing data sensor: </b>Monitroing data dari sensor jarak
-                dan suhu.
-              </li>
-              <li>
-                <b>Pengaturan Web: </b>Mengelola pengaturan seperti panjang
-                wadah pakan ikan, jenis ikan pada akuarium, serta durasi
-                pemberian pakan.
+                <b>Low Power Consumption: </b> Penggunaan Bluetooth Low Energy
+                (BLE) menjamin konsumsi daya yang rendah, memungkinkan perangkat
+                digunakan dalam waktu yang lama tanpa sering mengisi ulang
+                baterai.
               </li>
             </ol>
           </div>
